@@ -1,0 +1,85 @@
+# ---> Python <---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments (VENV, Pipenv, Poetry, etc.)
+# Never commit your virtual env!
+venv/
+env/
+ENV/
+.venv
+env.bak/
+venv.bak/
+myenv/
+
+# Environment variables file
+.env
+.venv
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# PyCharm IDE
+.idea/
+
+# VS Code IDE
+.vscode/
+
+# ---> API Keys & Secrets <---
+# File containing our OpenWeatherMap API key
+api_key.txt
+*.key
+*.secret
+
+# ---> Kali Linux / System <---
+# Temporary files
+*~
+*.swp
+*.swo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
